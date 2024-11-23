@@ -1,0 +1,21 @@
+
+
+
+footer{
+    margin-top: 2rem;
+    height: 50px;
+    background-color: var(--font);
+    border-radius: 25px 25px 0 0;
+    text-align: center;
+    align-content: center;
+
+
+    & p{
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    & span {
+        color:#DC7790;
+    }
+}

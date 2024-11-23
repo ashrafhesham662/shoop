@@ -1,0 +1,76 @@
+section.content{
+    margin-inline: 12%;
+    padding-block: 2.5rem;
+
+    & .fa-solid.fa-check{
+        margin-right: .5rem;
+    }
+
+    & h1{
+        font-size: 1.8rem;
+    }
+}
+
+
+/*--------------------
+    Start Carts
+---------------------*/
+
+section.cards{
+    margin-inline: 18%;
+    gap: 1.5rem;
+
+    & img{
+        width: 280px;
+        border: 1px solid #fff;
+        border-radius: 10px 10px 0 0;
+
+    }
+    
+
+    & .title{
+        background-color: #fff;
+        width: 280px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    & h1{
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+  
+
+    & .flex.box{
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 1rem;
+    }
+
+      & .flex.box p{
+        color: var( --secondaryfont);
+        font-weight: 600;
+        padding-left: .5rem;
+
+    }
+    & button.btn{
+            margin-right: .8rem;
+            background-color: var(--btn);
+            padding: 5px 10px;
+            border-radius: 5px ;
+            color: #fff;
+        }
+
+        & .fa-solid.fa-cart-shopping{
+            margin-right: .5rem;
+        }
+
+        &  {
+          justify-content: center;
+        
+
+        }
+    }
+
+
+
